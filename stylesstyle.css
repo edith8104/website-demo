@@ -1,0 +1,95 @@
+/* stylesstyle.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #da6c06;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background: #77aaff;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.latest {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.latest h2 {
+    text-align: center;
+}
+
+.manhwa-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.manhwa-item {
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+    width: 30%;
+}
+
+.manhwa-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
